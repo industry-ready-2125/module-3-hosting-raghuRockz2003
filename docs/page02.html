@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="top.css">
+  <style>
+    h1 {
+      font-family: fantasy;
+      background-color: blue;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between; 
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        font-family: DiatypeBold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+        color: #91948d;
+        margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      font-size: medium;
+    }
+    nav section {
+      margin-left: 10px; 
+    }
+    a { 
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #d58625;
+    }
+    .top , nav{
+      background-color: rgb(81, 81, 105);
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="logo">
+    <img src="crex.jpeg">
+    <label >CREX</label>
+</div>
+    <nav>
+      <section class="home">
+        <a href="#">Home</a>
+      </section>
+      <section class="series">
+        <a href="#">Series</a>
+      </section>
+      <section class="fixtures">
+        <a href="#">Fixtures</a>
+      </section>
+      <section class="Stats-corner">
+        <a href="#">Stats-Corner</a>
+      </section>
+      <section class="rankings">
+        <a href="#">Rankings</a>
+      </section>
+      <section class="Dark">
+        <a href="#" id="theme-toggle">Dark</a>
+      </section>
+    </nav>
+  </header>
+</body>
+</html>
