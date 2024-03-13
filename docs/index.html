@@ -10,14 +10,16 @@
     title {
       font-family: Arial, sans-serif;
     }
+    iframe {
+      overflow: hidden;
+    }
   </style>
   
 </head>
+<body style="height:100%; width:100%;">
+  <iframe name="top" src="ctop.html" noresize="noresize" style="height:80px; width:100%;"></iframe>
+  <iframe name="middle" src="middle.html" noresize="noresize" style="height:400px; width:100%;"></iframe>
+  <iframe name="bottom" src="cfooter.html" noresize="noresize" style="height:150px; width:100%;"></iframe>  
+</body>
 
-  <frameset rows="15%, 55%, 35%">
-    <frame name="top" src="ctop.html" noresize ="noresize"></frame>
-    <frame name = "middle" src = "middle.html" noresize = "noresize"></frame>
-    <frame name =  "bottom" src = "cfooter.html" noresize = "noresize"></frame>
-  </frameset>  
-  
 </html>
